@@ -29,6 +29,7 @@ before_install:
 
 # command to install dependencies
 install:
+    - pip install -U pip
     - pip install tox
 
 # command to run tests
